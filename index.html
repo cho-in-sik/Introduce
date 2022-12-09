@@ -18,27 +18,60 @@
           <li><a href="#detail">상세 내용</a></li>
         </ul>
       </nav>
+      <div class="profile-div">
+        <img src="img/profile.jpeg" alt="profile-img" />
+      </div>
     </header>
 
     <main role="main">
       <!--프로필 이미지 1.hover하면 효과 transition 주제별 영역 1.flex사용 2.보유스킬 해당 기술 설명 이동 링크생성-->
       <article>
-        <div><img src="img/profile.jpeg" alt="profile-img" /></div>
-        <section>인적사항</section>
-        <section>학력사항</section>
-        <section>경력사항</section>
-        <section>보유 스킬</section>
+        <div class="article-div">
+          <div style="padding-left: 100px">
+            <section>
+              <h2>인적사항</h2>
+              <h4>생년월일: 2000. 06. 30</h4>
+              <h4>주소: 광주광역시 북구</h4>
+              <h4>연락처: 010-1234-5678</h4>
+            </section>
+            <section>
+              <h2>학력사항</h2>
+              <ul>
+                <li>2000.01.01 ~2000.01.02: 대한중학교</li>
+                <li>2001.01.01 ~2001.01.02: 대한고등학교</li>
+                <li>2002.01.01 ~2002.01.02: 대한대학교</li>
+              </ul>
+            </section>
+          </div>
+          <div style="padding-right: 100px">
+            <section>
+              <h2>경력사항</h2>
+              <ol>
+                <li>엘리스 AI 트랙 수료</li>
+                <li>한국 정보 올림피아드 수상</li>
+                <li>대학생 봉사 동아리 회장</li>
+              </ol>
+            </section>
+            <section>
+              <h2>보유스킬</h2>
+              <ul>
+                <li><a href="htmlcss.html">HTML,CSS</a></li>
+                <li><a href="js.html">JS</a></li>
+                <li><a href="react.html">REACT</a></li>
+              </ul>
+            </section>
+          </div>
+        </div>
       </article>
-
-      <footer>
-        <!--제작사와 저작권 정보 작성-->
-        <div>
-          <p></p>
-        </div>
-        <div>
-          <p></p>
-        </div>
-      </footer>
     </main>
+    <footer>
+      <!--제작사와 저작권 정보 작성-->
+      <div>
+        <p>Author by: 조인식</p>
+      </div>
+      <div>
+        <p>Copyright ©2022 elice All rights reserved</p>
+      </div>
+    </footer>
   </body>
 </html>
